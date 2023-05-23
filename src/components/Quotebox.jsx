@@ -10,9 +10,7 @@ const QuoteBox = ({phrase, handleChangeQuote, author}) => {
             <p>{phrase}</p>
         </article>
     </section>
-    <button className="quoteBox_btn" onClick={handleChangeQuote}>
-        <img src="./public/image/vector.png" alt="" />
-    </button>
+    <button className="quoteBox_btn" onClick={handleChangeQuote}></button>
     <Footpart author={author} />
     </div>
      
