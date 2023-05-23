@@ -1,0 +1,32 @@
+.footer_Circle{
+    background-image: url(/public/image/Rectangle.png);
+    position: flex;
+    left: 13.29%;
+    right: 9.25%;
+    top: 33.13%;
+    bottom: 9.95%;
+    
+    background: radial-gradient(50.32% 50.32% at 45.67% 1.56%, #FFFFFF 0%, rgba(211, 245, 255, 0.8124) 18.76%, rgba(151, 232, 255, 0.5326) 46.74%, rgba(108, 223, 255, 0.2941) 70.59%, rgba(81, 217, 255, 0.109) 89.1%, rgba(71, 215, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    opacity: 0.5;  
+}
+
+h2{
+    text-align: center;
+    position: flex;
+    width: 304.84px;
+    height: 19px;
+    left: 488px;
+    top: 784px;
+
+    font-family: 'Orbitron', sans-serif;    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.0357px;
+    line-height: 19px;
+    text-align: center;
+    padding-right: 80%;
+    color: #FFFFFF;
+    padding-left: 105px;
+
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.33);
+}

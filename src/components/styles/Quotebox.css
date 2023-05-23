@@ -1,0 +1,62 @@
+.quoteBox_Container{
+    padding-right: 40%;
+  }
+  .quoteBox{
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 50px 33px;
+    gap: 10px;
+    width: 452.52px;
+    height: 245px;
+  
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.33) 100%);
+    border-radius: 39px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  p{
+      width: 386.52px;
+      height: 105px;
+  
+      font-family: 'Orbitron', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      text-align: center;
+      color: #25063F;
+  
+  
+  /* Inside auto layout */
+  
+      flex: none;
+    order: 0;
+      flex-grow: 0;
+  }
+  .quoteBox_btn{
+     align-items: center;
+    justify-items: center;
+    justify-content: center;
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;   
+}
+img{
+  
+    border-radius: 50%;
+}
