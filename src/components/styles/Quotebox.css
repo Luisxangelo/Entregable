@@ -39,7 +39,8 @@
     order: 0;
       flex-grow: 0;
   }
-  /* .quoteBox_btn{
+  .quoteBox_btn{
+    background-image: url(/public/image/vector.png);
      align-items: center;
     justify-items: center;
     justify-content: center;
@@ -52,10 +53,10 @@
 
     /* Inside auto layout */
 
-    /* flex: none;
+    flex: none;
     order: 1;
     flex-grow: 0;   
-} */ 
+}
 img{
   
     border-radius: 50%;
