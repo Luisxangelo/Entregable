@@ -41,20 +41,21 @@
   }
   .quoteBox_btn{
     background-image: url(/public/image/vector.png);
-     align-items: center;
+    align-items: center;
     justify-items: center;
-    justify-content: center;
     background-color: inherit;
     border: none;
     color: inherit;
-    width: 80px;
-    height: 80px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
+    padding-right: 60px;
+    padding-top: 60px;
 
     /* Inside auto layout */
 
     flex: none;
-    order: 1;
+    order: 0;
     flex-grow: 0;   
 }
 img{
