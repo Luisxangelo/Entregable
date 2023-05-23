@@ -11,8 +11,8 @@ const QuoteBox = ({phrase, handleChangeQuote, author}) => {
         </article>
     </section>
     <button className="quoteBox_btn" onClick={handleChangeQuote}></button>
-    <Footpart author={author} />
     </div>
+    <Footpart author={author} />
      
    </>
   )

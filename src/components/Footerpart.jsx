@@ -4,7 +4,7 @@ const Footpart = ({author}) => {
   return (
     
     <article className="footer_Circle">
-      <h2>Fuente:{author}</h2>
+      <h2>Fuente : {author}</h2>
     </article> 
 )
 }
